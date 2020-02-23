@@ -1,0 +1,74 @@
+.mainDiv {
+    border: #272D2D 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.stepDiv {
+    width: 300px;
+    background: #B8C5D6;
+    border-radius: 20px;
+}
+
+.header {
+    background-color: #006989;
+    border: #272D2D 2px hidden;
+    border-radius: 20px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.encircle {
+    float: left;
+    display: block;
+    border: #EAEBED 1px solid;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+}
+
+.title {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+span, p, label {
+    font-family: Roboto, sans-serif;
+}
+
+p, label {
+    color: #272D2D;
+}
+
+span {
+    color: #EAEBED;
+    font-weight: 1000;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 4px;
+    outline: none;
+    margin-top: 2px;
+}
+
+button {
+    font-size: 0.8em; padding: 5px 12px; 
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: #272D2D;
+    border: 1px solid silver;
+    background-image: linear-gradient(to top, gainsboro 0%, white 90%);
+    border-radius: 20px;
+    margin: 5px;
+}
+
+body {
+    background-color: #EAEBED;
+}
